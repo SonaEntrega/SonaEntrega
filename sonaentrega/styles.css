@@ -1,0 +1,131 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #FF6F61;
+}
+
+.boas-vindas {
+  text-align: center;
+  padding: 80px 0;
+  background-color: #fff;
+}
+
+.boas-vindas h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.boas-vindas p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.botoes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn {
+  padding: 15px 30px;
+  background-color: #FF6F61;
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #FF4500;
+}
+
+.servicos {
+  padding: 80px 0;
+  background-color: #f9f9f9;
+}
+
+.servicos h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.servicos-lista {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.servico {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.servico img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.servico h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.servico p {
+  font-size: 16px;
+}
+
+.contato {
+  padding: 80px 0;
+  background-color: #fff;
+  text-align: center;
+}
+
+.contato h2 {
+  margin-bottom: 20px;
+}
+
+.contato p {
+  font-size: 18px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 40px 0;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social img {
+  width: 24px;
+  height: 24px;
+}

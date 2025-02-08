@@ -1,0 +1,1 @@
+// Sem funcionalidades específicas por enquanto.
